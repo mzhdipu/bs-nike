@@ -1,0 +1,55 @@
+
+
+
+section{
+    margin-bottom: 100px;
+}
+.logo{
+    width: 400px;
+}
+
+/* BANNER SECTION START  */
+header,
+.bg-banner{
+    background-color: #FFF9F4;
+}
+.right-banner-text h2{
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right-banner-text h2{
+    color: #FA804C;
+}
+.right-banner-text p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+.product-info h3 {
+    color: #FA804C;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+.icon img{
+    width: 120px;
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    .logo {
+        width: 400px;
+    }
+    .right-banner-text h2 {
+        font-size: 30px;
+    }
+    .right-banner-text p {
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+}
